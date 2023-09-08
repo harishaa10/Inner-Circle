@@ -1,23 +1,20 @@
-/* Reset some default styles */
-body, h1, p, button {
-    margin: 0;
-    padding: 0;
-}
-
-/* Global styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #1e1e1e;
     color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
-.container {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #333;
-    border: 1px solid #444;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    color: #fff;
+    background-color: transparent;
 }
 
 h1 {
@@ -28,25 +25,60 @@ h1 {
     border-bottom: 2px solid #ff8c00;
 }
 
-.topItem {
-    height: 65%;
+ul {
+    padding: 0;
+    margin: 10px 0;
 }
 
-.topItemMain {
+ul li{
+    list-style: none;
+    font-size: 14px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #444;
+    user-select: none;
+    cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
 }
 
-.Info {
-    color: #ccc;
+ul li span {
     font-size: 14px;
+    border-radius: 5px;
+    background-color: #e67e00;
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
 }
 
-h4 {
-    color: #fff;
-    font-size: 20px;
+ul li span:hover {
+    background-color: #333;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0;
+    padding: 20px;
+    background-color: #333;
+    border: 1px solid #444;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.inputBar {
+    display: flex;
+    border-radius: 20px;
+    background-color: #1e1e1e;
+}
+
+.onTab{
+    display: flex;
+}
+
+.btns {
+    display: flex;
 }
 
 .btn {
@@ -59,7 +91,7 @@ h4 {
     border-radius: 5px;
     outline: none;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    margin: 5px;
 }
 
 .btn:hover {
@@ -70,20 +102,9 @@ h4 {
     background-color: #e67e00;
 }
 
-.bottomItem {
-    height: 35%;
-    position: relative;
-}
 
-.ERROR {
-    padding-top: 5px;
-}
 
-.ERROR p {
+#addBtn {
     margin: 0;
-    font-size: 12px;
-    font-weight: bold;
-    background: #444;
-    padding: 2px 0px;
-    text-align: center;
+    border-radius: 20px;
 }

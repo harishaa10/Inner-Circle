@@ -9,6 +9,7 @@ function IsBlockedSite(tab) {
             if (data.BlockedUrl.includes(hostname)) {
                 console.log("Dangerous tab. Close it for inner peace");
                 chrome.tabs.discard(tab.id);
+                //chrome.tabs.remove(tab.id, ()=>chrome.runtime.lastError)
                 //ReDirectPage(tab);
             }
         }
