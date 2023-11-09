@@ -14,16 +14,45 @@
         <h1>Inner Circle</h1>
 
         <div class="inputBar">
-            <input type="text" id="hostNameToBeBlocked">
-            <button class="btn" id="addBtn">+</button>
+            <input type="text" id="hostNameToBeBlocked" tabindex="0">
+            <button class="btn" tabindex="0" id="addBtn">+</button>
         </div>
+
+        <div id="timeLine">
+            <div id="timeCapsule">
+                <div class="hourMin">
+                    <input type="number" id="hourFrom" min="0" max="23" placeholder="HH" tabindex="0" value="00">
+                    <p>:</p>
+                    <input type="number" id="minFrom" min="0" max="59" placeholder="MM" tabindex="0" value="00">
+                </div>
+                <p>to</p>
+                <div class="hourMin">
+                    <input type="number" id="hourTo" min="0" max="23" placeholder="HH" tabindex="0" value="00">
+                    <p>:</p>
+                    <input type="number" id="minTo" min="0" max="59" placeholder="MM" tabindex="0" value="00">
+                </div>
+            </div>
+            <div class="checkbox-wrapper-5">
+                <div class="check">
+                  <input id="check-5" type="checkbox">
+                  <label for="check-5"></label>
+                </div>
+            </div>
+        </div>
+
 
         <ul id="blockedWebsiteList">
         </ul>
 
         <div class="btns">
-            <button class="btn" id="blockBtn">Block</button>
-            <button class="btn" id="unblockBtn" >Unblock</button>
+            <button tabindex="0" class="btn" id="blockBtn">Block this Site</button>
+            <!-- <button tabindex="0" class="btn" id="unblockBtn" >Unblock</button> -->
+        </div>
+
+        <div class="textLinks">
+            <!-- <a href="#" id="lockDown" style="color: darkorange;">Lockdown Inner Circle</a> -->
+            <a href="#" id="unlock" style="color: darkorange;">Unlock</a>
+            <a href="#" id="changePwd" style="color:darkorange">Change Password</a>
         </div>
     </div>
 
