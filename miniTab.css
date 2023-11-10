@@ -1,6 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #1e1e1e;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1c1a27;
     color: #fff;
     margin: 0;
     padding: 0;
@@ -20,9 +20,8 @@ input {
 h1 {
     font-size: 28px;
     text-align: center;
-    margin-bottom: 20px;
-    color: #ff8c00;
-    border-bottom: 2px solid #ff8c00;
+    margin-top: 20px;
+    color: #3d1635;
 }
 
 ul {
@@ -36,7 +35,7 @@ ul li{
     padding: 10px 15px;
     margin-bottom: 10px;
     border-radius: 20px;
-    background-color: #444;
+    background-color: #1c1a27;
     user-select: none;
     cursor: pointer;
     display: flex;
@@ -52,7 +51,7 @@ ul li span {
     min-width: 16px;
     min-height: 16px;
     margin-left: 5px;
-    background-color: #e67e00;
+    background-color: #3d1635;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,9 +65,10 @@ ul li span:hover {
     width: 300px;
     margin: 0;
     padding: 20px;
-    background-color: #333;
-    border: 1px solid #444;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* background-color: #333; */
+    background-image: radial-gradient(circle at center, #3d1635 0%, #1c1a27 100%);
+    border: 1px solid #3d1635;
+    box-shadow: 0 0 10px rgba(19, 16, 16, 0.3);
 }
 
 .inputBar {
@@ -90,7 +90,7 @@ ul li span:hover {
     font-weight: bold;
     font-size: 16px;
     padding: 10px 20px;
-    background-color: #ff8c00;
+    background-color: #3d1635;
     border: none;
     border-radius: 5px;
     outline: none;
@@ -99,15 +99,15 @@ ul li span:hover {
 }
 
 .btn:hover {
-    background-color: #ff9d4d;
+    background-color: #3d1635;
 }
 
 .btn:active {
-    background-color: #e67e00;
+    background-color: #3d1635;
 }
 
 .btn:focus {
-    outline: 2px dashed darkorange;
+    outline: 2px dashed #3d1635;
   }
 
 
@@ -122,7 +122,7 @@ ul li span:hover {
     font-size: 12px;
     padding: 0px 0px 0px 5px;
     border-radius: 5px;
-    background-color: #444;
+    background-color: #1c1a27;
 
 }
 
@@ -163,7 +163,9 @@ ul li span:hover {
 /* --size: 40px; */
 
 position: relative;
-background: linear-gradient(90deg, #f19af3, #f099b5);
+background: linear-gradient(90deg, #3d1635, #1c1a27);
+border-radius: 1px;
+border-color: #8a2be2;
 line-height: 0;
 perspective: 400px;
 font-size: var(--size);
