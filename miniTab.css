@@ -1,9 +1,16 @@
+
+/* yellow- faeac5 */
+
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #1c1a27;
-    color: #fff;
+    color: #57267b;
     margin: 0;
     padding: 0;
+}
+
+p {
+    color: #faeac5;
 }
 
 input {
@@ -13,15 +20,14 @@ input {
     border: none;
     border-radius: 20px;
     outline: none;
-    color: #fff;
+    color: #57267b;
     background-color: transparent;
 }
 
 h1 {
     font-size: 28px;
     text-align: center;
-    margin-top: 20px;
-    color: #3d1635;
+    margin-top: 35px;
 }
 
 ul {
@@ -35,7 +41,7 @@ ul li{
     padding: 10px 15px;
     margin-bottom: 10px;
     border-radius: 20px;
-    background-color: #1c1a27;
+    background-color: #faeac5;
     user-select: none;
     cursor: pointer;
     display: flex;
@@ -51,30 +57,28 @@ ul li span {
     min-width: 16px;
     min-height: 16px;
     margin-left: 5px;
-    background-color: #3d1635;
+    background-color: #faeac5;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 ul li span:hover {
-    background-color: #333;
+    background-color: #57267b;
 }
 
 .container {
     width: 300px;
     margin: 0;
     padding: 20px;
-    /* background-color: #333; */
-    background-image: radial-gradient(circle at center, #3d1635 0%, #1c1a27 100%);
-    border: 1px solid #3d1635;
-    box-shadow: 0 0 10px rgba(19, 16, 16, 0.3);
+    background-color: #302441;
+    /* background-image: radial-gradient(circle at center, #57267b 0%, #57267b 100%); */
 }
 
 .inputBar {
     display: flex;
     border-radius: 20px;
-    background-color: #1e1e1e;
+    background-color: #faeac5;
 }
 
 .onTab{
@@ -90,7 +94,7 @@ ul li span:hover {
     font-weight: bold;
     font-size: 16px;
     padding: 10px 20px;
-    background-color: #3d1635;
+    background-color: #57267b;
     border: none;
     border-radius: 5px;
     outline: none;
@@ -99,15 +103,15 @@ ul li span:hover {
 }
 
 .btn:hover {
-    background-color: #3d1635;
+    background-color: #57267b;
 }
 
 .btn:active {
-    background-color: #3d1635;
+    background-color: #57267b;
 }
 
 .btn:focus {
-    outline: 2px dashed #3d1635;
+    outline: 2px dashed #57267b;
   }
 
 
@@ -122,7 +126,7 @@ ul li span:hover {
     font-size: 12px;
     padding: 0px 0px 0px 5px;
     border-radius: 5px;
-    background-color: #1c1a27;
+    background-color: #faeac5;
 
 }
 
@@ -163,9 +167,8 @@ ul li span:hover {
 /* --size: 40px; */
 
 position: relative;
-background: linear-gradient(90deg, #3d1635, #1c1a27);
+background: radial-gradient(circle at center, #f7d98c, #99807f);
 border-radius: 1px;
-border-color: #8a2be2;
 line-height: 0;
 perspective: 400px;
 font-size: var(--size);

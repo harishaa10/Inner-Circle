@@ -19,12 +19,11 @@ h1 {
 .night {
     height: 150px;
     width: 100%;
-    margin: 0px 0px 10px 0px;
     background: url("../assets/background.png");
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    box-shadow: 1px 2px 60px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 1px 2px 60px rgba(0, 0, 0, 0.5); */
     overflow-x: hidden;
 }
 
@@ -37,14 +36,14 @@ h1 {
     bottom: 0%;
     left: 0%;
     background-repeat: repeat-x;
-    animation: moveRight 60s linear infinite;
+    animation: moveRight 120s linear infinite;
 }
 
 .van {
     position: absolute;
     bottom: 4%;
     left: 21%;
-    animation: suspension 5s linear infinite;
+    animation: suspension 2s linear infinite;
 }
 
 @keyframes moveRight{
